@@ -31,6 +31,6 @@ public class WelcomeService {
     }
     
     public String createMessage(String name) {
-        return "Good " + determineTimeofDay() + "," + name + ", Welcome!";
+        return "Good " + determineTimeofDay() + ", " + name + ", Welcome!";
     }
 }

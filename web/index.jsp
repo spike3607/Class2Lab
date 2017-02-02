@@ -13,5 +13,6 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+        <p><a href="welcome.html">Goto Welcome Page</a></p>
     </body>
 </html>

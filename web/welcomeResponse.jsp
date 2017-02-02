@@ -13,19 +13,8 @@
     </head>
     <body>
         <h1>Response</h1>
-        <p>
-            <%
-                Object responseObj = request.getAttribute("myMsg");
-                Object errObj = request.getAttribute("errorMsg");
-                
-                if(responseObj != null) {
-                    out.println(responseObj.toString());
-                }
-                
-                if(errObj != null) {
-                    out.println(errObj.toString());
-                }
-            %>
+        <p> ${myMsg}
+            
         </p>
     </body>
 </html>
